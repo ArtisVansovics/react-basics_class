@@ -1,0 +1,16 @@
+.article {
+  width: 100%;
+  border: 2px solid thistle;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.article__img {
+  width: 100%;
+  max-width: 250px;
+}
