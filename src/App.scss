@@ -4,5 +4,19 @@
 
 .box {
   display: flex;
+  justify-content: center;
   margin-bottom: 30px;
+  gap: 16px;
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+
+.round {
+  border-radius: 50%;
 }
